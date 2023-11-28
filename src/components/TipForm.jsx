@@ -13,7 +13,7 @@ const TipForm = ({
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex-1 px-2 lg:py-4 lg:pl-4 lg:pr-4"
+      className="flex-1 px-2 lg:py-3 lg:pl-4 lg:pr-4 lg:pb-4"
     >
       {/* BILL */}
       <div className="mb-2 flex justify-between">
@@ -40,7 +40,7 @@ const TipForm = ({
       />
 
       {/* SELECT TIP % */}
-      <div className="mb-4 mt-8 flex justify-between lg:mb-5 lg:mt-9">
+      <div className="mb-4 mt-8 flex justify-between lg:mb-[.85rem] lg:mt-10">
         <label htmlFor="tipPercentage" className="input__label">
           Select Tip %
         </label>
@@ -55,7 +55,7 @@ const TipForm = ({
             value={item}
             name="preDefinedTip"
             onClick={handleTipPercentage}
-            className={`w-[9rem] rounded-md px-4 py-2 text-2xl text-VeryLightGrayishCyan hover:bg-LightGrayishCyan hover:text-VeryDarkCyan active:bg-StrongCyan lg:max-w-[7.2rem] ${
+            className={`w-[9rem] rounded-md px-4 py-2 text-2xl text-VeryLightGrayishCyan hover:bg-LightGrayishCyan hover:text-VeryDarkCyan active:bg-StrongCyan lg:max-w-[7.225rem] ${
               item === formData.preDefinedTip
                 ? "bg-StrongCyan"
                 : "bg-VeryDarkCyan"
@@ -71,7 +71,7 @@ const TipForm = ({
           value={formData.tipPercentage}
           onChange={handleTipPercentage}
           placeholder="Custom"
-          className={`no-spinner w-full max-w-[9rem] rounded-md bg-VeryLightGrayishCyan px-4 py-2 text-right text-2xl text-VeryDarkCyan placeholder:text-GrayishCyan lg:max-w-[7.2rem] lg:px-2 lg:text-xl ${
+          className={`no-spinner w-full max-w-[9rem] rounded-md bg-VeryLightGrayishCyan px-4 py-2 text-right text-2xl text-VeryDarkCyan placeholder:text-GrayishCyan lg:max-w-[7.225rem] lg:px-2 lg:text-xl ${
             error.bill ? "outline-red-500" : "outline-StrongCyan"
           }`}
         />

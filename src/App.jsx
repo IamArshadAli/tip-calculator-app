@@ -111,7 +111,7 @@ const App = () => {
       <figure className="lg:-mt-16">
         <img src={logo} alt="Splitter" className="" />
       </figure>
-      <section className="flex w-full flex-col gap-8 rounded-2xl bg-White px-6 py-8 shadow-2xl transition-all md:max-w-md lg:max-w-[57.5rem] lg:flex-row lg:px-8 lg:py-8">
+      <section className="shadow-Str flex w-full flex-col gap-8 rounded-3xl bg-White px-6 py-8 shadow-2xl transition-all md:max-w-md lg:max-w-[57.5rem] lg:flex-row lg:gap-9 lg:px-8 lg:pb-7">
         <TipForm
           handleSubmit={handleSubmit}
           handleInput={handleInput}
