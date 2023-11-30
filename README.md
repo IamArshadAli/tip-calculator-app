@@ -7,7 +7,7 @@
 
   <h1 align="center">Tip Calculator App</h1>
   <p align="center">
-    <a href="https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-using-reactjs-and-tailwindcss-c2gATYyXAe"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/solutions/tip-calculator-app-using-reactjs-and-tailwindcss-with-counter-animation-4tvcj2v2E8"><strong>Frontend Mentor Challenge</strong></a>
     <br />
   </p>
 </div>
@@ -59,11 +59,11 @@ This is a solution to the [Tip Calculator App challenge on Frontend Mentor](http
 
  ||
   | :-----: |
-  |  <b>Overall Score: 🖥️ 97% \| 📱 95%</b> |
+  |  <b>Overall Score: 🖥️ 98% \| 📱 94%</b> |
   | |
   | <img src='./src/assets/images/pagespeed-insights-score.svg' alt='Scoreboard'> |
   | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-tip-calculator-app-arshad-ali-vercel-app/o8z101hkwb?form_factor=desktop) to get live score |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-tip-calculator-app-arshad-ali-vercel-app/0x8uqnp23c?form_factor=desktop) to get live score |
   ||
 
 </div>
